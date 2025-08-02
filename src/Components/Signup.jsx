@@ -128,7 +128,7 @@ const Signup = ({ onSwitchToLogin, onSignupSuccess }) => {
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
             <div className="input-group">
-              <User className="input-icon" />
+              
               <input
                 type="text"
                 id="name"
@@ -145,7 +145,7 @@ const Signup = ({ onSwitchToLogin, onSignupSuccess }) => {
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <div className="input-group">
-              <Mail className="input-icon" />
+              
               <input
                 type="email"
                 id="email"
@@ -162,7 +162,7 @@ const Signup = ({ onSwitchToLogin, onSignupSuccess }) => {
           <div className="form-group">
             <label htmlFor="password">Password</label>
             <div className="input-group">
-              <Lock className="input-icon" />
+             
               <input
                 type={showPassword ? 'text' : 'password'}
                 id="password"
@@ -186,7 +186,7 @@ const Signup = ({ onSwitchToLogin, onSignupSuccess }) => {
           <div className="form-group">
             <label htmlFor="confirmPassword">Confirm Password</label>
             <div className="input-group">
-              <Lock className="input-icon" />
+            
               <input
                 type={showConfirmPassword ? 'text' : 'password'}
                 id="confirmPassword"
@@ -249,5 +249,6 @@ const Signup = ({ onSwitchToLogin, onSignupSuccess }) => {
     </div>
   );
 };
+
 
 export default Signup; 
