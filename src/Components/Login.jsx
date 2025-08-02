@@ -85,7 +85,7 @@ const Login = ({ onSwitchToSignup, onLoginSuccess }) => {
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <div className="input-group">
-              <Mail className="input-icon" />
+              
               <input
                 type="email"
                 id="email"
@@ -101,7 +101,7 @@ const Login = ({ onSwitchToSignup, onLoginSuccess }) => {
           <div className="form-group">
             <label htmlFor="password">Password</label>
             <div className="input-group">
-              <Lock className="input-icon" />
+              
               <input
                 type={showPassword ? 'text' : 'password'}
                 id="password"
@@ -163,5 +163,6 @@ const Login = ({ onSwitchToSignup, onLoginSuccess }) => {
     </div>
   );
 };
+
 
 export default Login; 
